@@ -1,6 +1,6 @@
 body{
    background-color: green;
-    background-image: url(./htmlpic4.jpg);
+    background-image: url(./bgimg.jpg);
     
     text-align: center;
    background-repeat: no-repeat;
@@ -27,7 +27,7 @@ h1{
     font-size: 40px;
     position: relative;
     left:90px;
-    color: red;
+    color: darkmagenta;
 }
 #fullname{
     grid-area: name;
@@ -41,6 +41,11 @@ h1{
     top:40px;
     font-size:30px;
 }
+#confirmpw{
+    grid-area: password;
+    position: relative;
+    top:40px;
+    font-size:30px;}
 #login{
     grid-area: submit;
     position: relative;
@@ -67,4 +72,10 @@ h1{
     position: relative;
     left: 150px;
     
+}
+#error{
+    color: blueviolet;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
 }

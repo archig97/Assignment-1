@@ -5,24 +5,29 @@
             <link href= "./styleForHomePage.css" rel="stylesheet" type= "text/css" >
      </head> 
        <body>
-<header>
-    
+<header id="main">
+    <nav>
     <ul>
-        <li id="main1">About</li>
-        <ul>
-        <li>Personal Summary</li>
-        <li>Hobbies</li>
-        <li>Professional Summary</li>
-        </ul>
+        <li><a href="#personal">Personal Summary</a></li>
+        <li><a href="#hobby">Hobbies</a></li>
+        <li><a href="#interest">Interests</a></li>
+        <li><a href="#professional">Professional Summary</a></li>
+        <li><a href="#con">Contact</a></li>
+        <li><a href="./Login Page.html">Logout</a></li>
+        
+        
     </ul>
+    </nav>
     </header>
-<div id="first">
+<div id="first"><a name="personal"></a>
     <h2>Personal Summary</h2>
+    <img src="./girlpic2.jpg" width=180px height=180px class="show" id="girlpic">
+    <div class="show">
    <p>Name: Archismita Ghosh</p>
 <p>Age:22</p>
-<p>Hometown: Kolkata</p>
+<p>Hometown: Kolkata</p></div>
 </div>
-<div id="second">
+<div id="second"><a name="hobby"></a>
     <img src="https://i.imgur.com/pES64we.jpeg" width=150px height=110px id="swimpic">
     <img src="https://i.imgur.com/aYg9rwU.jpeg" width=150px height=110px id="readpic">
 <h2>Hobbies</h2>
@@ -30,18 +35,26 @@
 <p>Writing</p>
 <p>swimming</p>
 </div>
-
+<span>
+    <a name="interest"></a>
+<p id="interests">INTERESTS</p>
 <div id="pic1">
-    <img src="./htmlpic1.jpg" width=400px height=220px></div>
-    <div id="third">
+    <img src="./javaimg.jpg" width=180px height=150px id="prof1">
+    <img src="./dsaimg - Copy.jpeg" width=180px height=150px id="prof2">
+    <img src="./Pythonlogo.jpg" width=180px height=150px id="prof3">
+</div></span>
+<div id="third"><a name="professional"></a>
+        <img src="./coder1.jpg" width=130px height=180px id="prof1" class="new1">
+        <div class="new1">
     <h2>Professional Summary</h2>
 
     <p>ICSE: 2014</p>
     <p>ISC: 2016</p>
-    <p>B.Tech ECE: 2020</p>
+    <p>B.Tech ECE: 2020</p></div>
+    <img src="./coder2.jpg" width=130px height=180px id="prof2" class="new1">
 </div>
 
-<div id="contact"><a href = "mailto: archismitaghosh97@gmail.com">Contact Here</a></div>
+<div id="contact"><a name="con" href = "mailto: archismitaghosh97@gmail.com">Contact Here</a></div>
         </body>
     
 </html>
