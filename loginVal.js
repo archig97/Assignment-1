@@ -12,13 +12,13 @@ function validate()
     }
     if(password1.value.trim()=='')
     {
-        alert("No blank values allowed");
+        alert("No blank values allowed!");
         password1.style.border="solid 3px red";
         return false;
     }
     else if(password1.value.length<8)
     {
-        alert("Password must have more than 8 characters");
+        alert("Password must have more than 8 characters!");
         password1.style.border="solid 3px red";
         return false;
     }
